@@ -37,6 +37,8 @@ The types of changes are:
 * Tie together save states for user permissions and systems [#2913](https://github.com/ethyca/fides/pull/2913)
 * Removing payment types from Stripe connector params [#2915](https://github.com/ethyca/fides/pull/2915)
 * Change Privacy Center email placeholder text [#2935](https://github.com/ethyca/fides/pull/2935)
+* Modified privacy center and sample app to accept either phone or email but not both. Modified default config. [#2539](https://github.com/ethyca/fides/pull/2539)
+
 
 ### Fixed
 
@@ -66,7 +68,7 @@ The types of changes are:
 
 * Removed dataset based email connectors [#2782](https://github.com/ethyca/fides/pull/2782)
 * Changed Auth0's authentication strategy from `bearer` to `oauth2_client_credentials` [#2820](https://github.com/ethyca/fides/pull/2820)
-* renamed the privacy declarations field "Privacy declaration name (deprecated)" to "Processing Activity" [#711](https://github.com/ethyca/fidesplus/issues/711)
+* Renamed the privacy declarations field "Privacy declaration name (deprecated)" to "Processing Activity" [#711](https://github.com/ethyca/fidesplus/issues/711)
 
 ### Fixed
 
