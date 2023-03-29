@@ -33,7 +33,7 @@
     "@fontsource/inter": "^4.5.15",
     "@monaco-editor/react": "^4.4.6",
     "@reduxjs/toolkit": "^1.9.3",
-    "chakra-react-select": "^3.3.7",
+    "chakra-react-select": "^4.6.0",
     "date-fns": "^2.29.3",
     "date-fns-tz": "^2.0.0",
     "formik": "^2.2.9",
