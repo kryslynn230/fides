@@ -17,6 +17,10 @@ The types of changes are:
 
 ## [Unreleased](https://github.com/ethyca/fides/compare/2.10.0...main)
 
+### Added
+
+* Add endpoint to retrieve privacy notices grouped by their associated data usese [#2956](https://github.com/ethyca/fides/pull/2956)
+
 ## [2.10.0](https://github.com/ethyca/fides/compare/2.9.2...2.10.0)
 
 ### Added
