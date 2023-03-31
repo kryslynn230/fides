@@ -1,4 +1,3 @@
-// import TagManager from 'react-gtm-module';
 import { Product } from '../types';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
