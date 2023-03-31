@@ -23,11 +23,6 @@ const IndexPage = ({
   gtm_key,
 }: Props) => {
 
-  // if (gtm_key) {
-  //   console.log('GTM Key found: ', gtm_key);
-  //   TagManager.initialize({ gtmId: gtm_key });
-  // }
-
   return (
     <>
       <Head>
