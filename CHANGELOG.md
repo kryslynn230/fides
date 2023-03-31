@@ -17,6 +17,10 @@ The types of changes are:
 
 ## [Unreleased](https://github.com/ethyca/fides/compare/2.10.0...main)
 
+### Changed
+
+* Replaced menu in user management table with delete icon [#2958](https://github.com/ethyca/fides/pull/2958)
+
 ## [2.10.0](https://github.com/ethyca/fides/compare/2.9.2...2.10.0)
 
 ### Added
