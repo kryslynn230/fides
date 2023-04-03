@@ -14,7 +14,11 @@ interface Props {
 
 export const getServerSideProps: GetServerSideProps<Props> = async () => {
   const results = await pool.query<Product>('SELECT * FROM public.product;');
-  return { props: { products: results.rows, gtm_key: process.env.GOOGLE_TAG_MANAGER_CONTAINER } };
+  const gtmRegex = /^[0-9a-zA-Z-]+$/
+  if (process.env.GOOGLE_TAG_MANAGER_CONTAINER?.match(gtmRegex)) {
+    let gtm_key = process.env.GOOGLE_TAG_MANAGER_CONTAINER
+  }
+  return { props: { products: results.rows, gtm_key } };
 };
 
 
