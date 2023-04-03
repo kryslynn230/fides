@@ -24,7 +24,7 @@
     "typescript-cookie": "^1.0.4"
   },
   "devDependencies": {
-    "@fidesui/config": "^0.0.3",
+    "@fidesui/config": "^0.0.4",
     "@rollup/plugin-json": "^5.0.2",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "rollup": "^2.67.0",
