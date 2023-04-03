@@ -35,7 +35,7 @@ const IndexPage = ({
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
       </Head>
-      {gtm_key && (
+      {gtm_key ? (
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`
             (function (w, d, s, l, i) {
@@ -47,7 +47,7 @@ const IndexPage = ({
                   'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
             })(window, document, 'script', 'dataLayer', '${gtm_key}');
           `}
-        </Script>)}
+        </Script>) : null }
       <Home products={products} />
     </>
   );
